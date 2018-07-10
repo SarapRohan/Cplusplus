@@ -3,7 +3,7 @@
 #include <vector>
 
 using namespace std;
-int largestRectangleArea(vector<int> v) {
+int largestRectangleArea(vector<int> A) {
 	stack<int> s;
     int max_area=0,top,area_top;
     int i=0;
