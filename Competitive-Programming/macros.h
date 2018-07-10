@@ -15,7 +15,6 @@
 #define FFE(i, l, r) for (int i =l; i >= r; i--)
 #define REP(i, n) F(i, 0, n)
 #define REPN(i, n) FE(i, 1, n)
-#define REPD
 
 //random
 #define getI(a) scanf("%d", &a) //next three are handy ways to get ints, it's also force you to use '&' sign
