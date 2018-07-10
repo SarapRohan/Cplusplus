@@ -1,7 +1,6 @@
 #include <iostream>
 #include <stack>
 #include <vector>
-
 using namespace std;
 int largestRectangleArea(vector<int> A) {
 	stack<int> s;
