@@ -5,7 +5,7 @@ typedef vector<int> vi;
 typedef vector<vi> vvi;
 
 using namespace std;
-int coin(vi v, vvi memo, int s, int e) {
+int coin(vi v, vvi &memo, int s, int e) {
     if(s > e) return 0;
     if(memo[s][e] != 0) return memo[s][e];
     int a = v[s] + min(coin(v, memo, s + 2, e), coin(v, memo, s + 1, e -1));
