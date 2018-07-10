@@ -9,6 +9,7 @@
 
 typedef long long ll;
 typedef pair<int,int> pii;
+typedef vector<int> vi;
 
 using namespace std;
 
