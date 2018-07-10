@@ -42,12 +42,6 @@
 #define S(A) sort((A).begin(), (A).end())
 #define SIZE(a) (int)((a).size())
 
-//data types
-#define LL long long
-#define ULL unsigned long long
-#define UI unsigned int
-#define US unsigned short
-
 //fast i/o
 #define SYNC ios_base::sync_with_stdio(0);cin.tie(NULL);cout.tie(NULL);
 
