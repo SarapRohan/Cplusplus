@@ -58,8 +58,8 @@
 
 //map & pair
 #define mp make_pair
-#define x first
-#define y second
+#define fi first
+#define se second
 
 //vector
 #define pb push_back
