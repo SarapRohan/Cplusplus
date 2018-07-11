@@ -5,5 +5,5 @@ int subsetSum(vector<int> v, int s) {
         for(int i = s; i >= n; i--)
             dp[i] += dp[i - n];
     }
-    return dp[s]s;
+    return dp[s];
 }
